@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200&family=Supermercado+One&display=swap");
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.purple {
+  color: hsl(277, 64%, 61%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  background: hsl(244, 38%, 16%);
+  border-radius: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
