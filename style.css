@@ -54,4 +54,21 @@ img{
   color:  hsla(0, 0%, 100%, 0.6);
 }
 
+.info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.overviews {
+ display: flex;
+}
+
+.overviews, .overview, ul {
+  padding: 0 30px;
+}
+
+
 
